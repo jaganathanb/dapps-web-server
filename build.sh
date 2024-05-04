@@ -1,4 +1,4 @@
-bin_name='DAppsWebServer'  # Change the binary name as desired
+bin_name='DApps.WebUi'  # Change the binary name as desired
 
 archs=("386" "amd64")
 GOOS="windows"
@@ -10,5 +10,5 @@ arch=${archs[$i]}
 echo "Building for platform - ${arch}..."
 
 CGO_ENABLED=1 GOOS="${GOOS}" GOARCH=${arch} \
-         go build -o "./out1/${bin_name}-${arch}.exe"
+         go build -o "./out/${bin_name}-${arch}.exe"
 done
