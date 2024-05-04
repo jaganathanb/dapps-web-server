@@ -4,7 +4,7 @@ server:
   staticContentPath: './public'
   apiUrl: ${Deploy:ApiUrl}
 logger:
-  filePath: ${Deploy:RootFolder}
+  filePath: "${Deploy:RootFolder}\\ui\\logs"
   encoding: json
   level: debug
   logger: zap
