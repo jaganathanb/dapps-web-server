@@ -1,0 +1,9 @@
+server:
+  internalPort: 9080
+  runMode: debug
+  staticContentPath: './public'
+logger:
+  filePath: './logs'
+  encoding: json
+  level: debug
+  logger: zap
