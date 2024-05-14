@@ -13,12 +13,7 @@ git push origin v1.4.0.0 # pushing the tag to remote
 #Build
 
 ```
-cd src\cmd
-
 go-winres make --product-version=git-tag --file-version=git-tag
-
-cd ..
-cd ..
 
 #open bash terminal and run the below cmd
 
